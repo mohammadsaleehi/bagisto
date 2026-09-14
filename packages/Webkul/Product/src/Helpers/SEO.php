@@ -39,7 +39,16 @@ class SEO
         if (core()->getConfigData('catalog.rich_snippets.products.show_images')) {
             $data['image'] = $this->getProductImages($product);
         }
-
+        if ($product->brand) {
+            $brand = \Webkul\Attribute\Models\AttributeOption::find($product->brand);
+    
+            if ($brand) {
+                $data['brand'] = [
+                    '@type' => 'Brand',
+                    'name' => $brand->admin_name,
+                ];
+            }
+        }
         if (core()->getConfigData('catalog.rich_snippets.products.show_reviews')) {
             $data['review'] = $this->getProductReviews($product);
         }
@@ -148,10 +157,19 @@ class SEO
      */
     public function getProductOffers($product)
     {
+        $currency = core()->getCurrentCurrencyCode();
+    
+        $price = $product->getTypeInstance()->getMinimalPrice();
+    
+        if ($currency === 'IRT') {
+            $currency = 'IRR';
+            $price *= 10;
+        }
+    
         return [
             '@type' => 'Offer',
-            'priceCurrency' => core()->getCurrentCurrencyCode(),
-            'price' => $product->getTypeInstance()->getMinimalPrice(),
+            'priceCurrency' => $currency,
+            'price' => $price,
             'availability' => 'https://schema.org/InStock',
         ];
     }

@@ -29,5 +29,21 @@ class ExtendedHtml5Definition implements Definition
         $definition->addAttribute('img', 'loading', 'Enum#lazy,eager');
         $definition->addAttribute('span', 'data-custom', 'Text');
         $definition->addAttribute('div', 'data-custom', 'Text');
+
+        $definition->addElement(
+            'iframe',
+            'Block',
+            'Flow',
+            'Common',
+            [
+                'src' => 'URI',
+                'width' => 'Length',
+                'height' => 'Length',
+                'class' => 'Class',
+                'id' => 'Text',
+                'loading' => 'Enum#lazy,eager',
+                'allowfullscreen' => 'Bool',
+            ]
+        );
     }
 }

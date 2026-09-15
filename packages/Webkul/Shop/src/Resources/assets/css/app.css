@@ -3,11 +3,82 @@
 @tailwind utilities;
 
 @font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../fonts/Vazirmatn-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../fonts/Vazirmatn-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../fonts/Vazirmatn-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../fonts/Vazirmatn-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: "bagisto-shop";
     src: url("../fonts/bagisto-shop.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+html[lang="fa"] {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+html[lang="en"] {
+    font-family: "Outfit", sans-serif;
 }
 
 img.lazy {
@@ -372,7 +443,7 @@ img.lazy {
     }
 
     * {
-        @apply box-border font-poppins;
+        @apply box-border;
     }
 
     .scrollbar-hide::-webkit-scrollbar {
@@ -484,7 +555,7 @@ img.lazy {
         inset: 0;
         display: grid;
         place-content: center;
-        font-family: 'DM Serif Display';
+        font-family: "Outfit", sans-serif;
         overflow: hidden;
         letter-spacing: 24px;
     }

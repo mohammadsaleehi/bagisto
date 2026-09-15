@@ -37,8 +37,8 @@ module.exports = {
             },
 
             fontFamily: {
-                poppins: ["Poppins", "sans-serif"],
-                dmserif: ["DM Serif Display", "serif"],
+                poppins: ["Outfit", "sans-serif"],
+                dmserif: ["Outfit", "sans-serif"],
             },
         }
     },

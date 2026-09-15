@@ -58,6 +58,6 @@ class LoginController extends Controller
 
         Event::dispatch('customer.after.login', $customer);
 
-        return redirect()->intended(route('shop.customers.account.profile.index'));
+        return redirect()->intended(route('shop.home.index'));
     }
 }

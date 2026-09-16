@@ -40,18 +40,6 @@
 
     {!! view_render_event('bagisto.shop.categories.view.banner_path.after') !!}
 
-    {!! view_render_event('bagisto.shop.categories.view.description.before') !!}
-
-    @if (in_array($category->display_mode, [null, 'description_only', 'products_and_description']))
-        @if ($category->description)
-            <div class="container mt-[34px] px-[60px] max-lg:px-8 max-md:mt-4 max-md:px-4 max-md:text-sm max-sm:text-xs">
-                {!! $category->description !!}
-            </div>
-        @endif
-    @endif
-
-    {!! view_render_event('bagisto.shop.categories.view.description.after') !!}
-
     @if (in_array($category->display_mode, [null, 'products_only', 'products_and_description']))
         <!-- Category Vue Component -->
         <v-category>
@@ -59,6 +47,23 @@
             <x-shop::shimmer.categories.view />
         </v-category>
     @endif
+
+    <!-- Category Description -->
+    {!! view_render_event('bagisto.shop.categories.view.description.before') !!}
+
+    @if (in_array($category->display_mode, [null, 'description_only', 'products_and_description']))
+        @if ($category->description)
+            <div class="container mt-8 px-[60px] max-lg:px-8 max-md:mt-6 max-md:px-4">
+                <div
+                    class="rounded-xl border border-gray-100 bg-gray-50 px-5 py-4 text-right leading-7 text-gray-600 max-md:px-4 max-md:py-3 max-md:text-xs max-md:leading-6"
+                >
+                    {!! $category->description !!}
+                </div>
+            </div>
+        @endif
+    @endif
+
+    {!! view_render_event('bagisto.shop.categories.view.description.after') !!}
 
     @pushOnce('scripts')
         <script

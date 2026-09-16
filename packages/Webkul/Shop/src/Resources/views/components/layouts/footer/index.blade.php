@@ -72,7 +72,22 @@
                 @endif
             </x-slot>
         </x-shop::accordion>
-
+        <!-- Enamad -->
+        <div class="zephyras-enamad">
+            <a
+                referrerpolicy="origin"
+                target="_blank"
+                href="https://trustseal.enamad.ir/?id=699991&Code=4G0NFdYFF24Ucc9oyMJNYn1sVahxTNfv"
+            >
+                <img
+                    referrerpolicy="origin"
+                    src="https://trustseal.enamad.ir/logo.aspx?id=699991&Code=4G0NFdYFF24Ucc9oyMJNYn1sVahxTNfv"
+                    alt="نماد اعتماد الکترونیکی"
+                    style="cursor:pointer"
+                    code="4G0NFdYFF24Ucc9oyMJNYn1sVahxTNfv"
+                >
+            </a>
+        </div>
         {!! view_render_event('bagisto.shop.layout.footer.newsletter_subscription.before') !!}
 
         <!-- News Letter subscription -->

@@ -408,6 +408,18 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Contact Us -->
+                <div
+                    class="group relative flex h-[77px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-navyBlue"
+                >
+                    <a
+                        href="/page/contact"
+                        class="inline-block px-5 uppercase"
+                    >
+                        ارتباط با ما
+                    </a>
+                </div>
             </div>
 
             <!-- Bagisto Drawer Integration -->
@@ -442,6 +454,20 @@
                             <!-- First level view -->
                             <div class="h-[calc(100vh-74px)] w-full flex-shrink-0 overflow-auto">
                                 <div class="py-4">
+
+                                    <!-- Home Page -->
+                                    <div>
+                                        <div class="flex items-center justify-between px-6 py-2 transition-colors duration-200 cursor-pointer hover:bg-gray-100">
+                                            <a
+                                                href="{{ url('/') }}"
+                                                class="text-base font-medium text-black"
+                                            >
+                                                صفحه اصلی
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Categories -->
                                     <div
                                         v-for="category in categories"
                                         :key="category.id"
@@ -481,7 +507,20 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- Contact Us -->
+                                    <div>
+                                        <div class="flex items-center justify-between px-6 py-2 transition-colors duration-200 cursor-pointer hover:bg-gray-100">
+                                        <a
+                                            href="{{ url('/page/contact') }}"
+                                            class="text-base font-medium text-black"
+                                        >
+                                            ارتباط با ما
+                                        </a>
+                                    </div>
                                 </div>
+
+                            </div>
                             </div>
 
                             <!-- Third level view -->

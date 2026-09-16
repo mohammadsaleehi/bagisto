@@ -412,6 +412,17 @@
             <!-- First level view -->
             <div class="flex-shrink-0 w-full h-full px-6 overflow-auto">
                 <div class="py-4">
+                        <!-- Home Page -->
+                        <div>
+                            <div class="flex items-center justify-between py-2 transition-colors duration-200 cursor-pointer">
+                                <a
+                                    href="{{ route('shop.home.index') }}"
+                                    class="text-base font-medium text-black"
+                                >
+                                    صفحه اصلی
+                                </a>
+                            </div>
+                        </div>
                         <div
                             v-for="category in categories"
                             :key="category.id"
@@ -444,6 +455,15 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <!-- Contact Us -->
+                    <div class="flex items-center justify-between px-6 py-2 transition-colors duration-200 cursor-pointer hover:bg-gray-100">
+                        <a
+                        href="{{ url('/page/contact') }}"
+                        class="text-base font-medium text-black"
+                        >
+                        ارتباط با ما
+                        </a>
                     </div>
                 </div>
             </div>

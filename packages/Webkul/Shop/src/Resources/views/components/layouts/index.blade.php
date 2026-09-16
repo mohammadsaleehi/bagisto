@@ -54,6 +54,12 @@
 
         @bagistoVite(['src/Resources/assets/css/app.css', 'src/Resources/assets/js/app.js'])
 
+        @if (request()->is('page/contact', 'page/about-us'))
+            <link
+                rel="stylesheet"
+                href="{{ asset('themes/shop/default/css/custom.css') }}"
+            >
+        @endif
 
         @stack('styles')
 

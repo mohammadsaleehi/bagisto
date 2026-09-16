@@ -1,0 +1,1436 @@
+/* ========================================
+   ZEPHYRAS ABOUT PAGE
+======================================== */
+
+.zephyras-about-page {
+    width: 100% !important;
+    max-width: 1080px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+    direction: rtl !important;
+    text-align: right !important;
+    color: #151515 !important;
+    font-family: inherit !important;
+}
+
+.zephyras-about-page * {
+    box-sizing: border-box !important;
+}
+
+.zephyras-about-page h1,
+.zephyras-about-page h2,
+.zephyras-about-page h3,
+.zephyras-about-page p {
+    margin-top: 0 !important;
+}
+
+
+/* ========================================
+   TOP
+======================================== */
+
+.zephyras-about-page .zap-header {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 45px 20px 42px !important;
+    border-bottom: 1px solid #eeeeee !important;
+}
+
+.zephyras-about-page .zap-header > span {
+    display: block !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    color: #173b8f !important;
+    margin-bottom: 10px !important;
+}
+
+.zephyras-about-page .zap-header h1 {
+    font-size: 34px !important;
+    font-weight: 800 !important;
+    line-height: 1.65 !important;
+    color: #071a52 !important;
+    margin-bottom: 10px !important;
+}
+
+.zephyras-about-page .zap-header p {
+    max-width: 680px !important;
+    margin: 0 auto !important;
+    font-size: 14px !important;
+    line-height: 2.1 !important;
+    color: #777 !important;
+}
+
+
+/* ========================================
+   INTRO
+======================================== */
+
+.zephyras-about-page .zap-intro {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 100px minmax(0, 1fr) !important;
+    column-gap: 40px !important;
+    align-items: start !important;
+    padding: 60px 25px !important;
+}
+
+.zephyras-about-page .zap-intro-number {
+    color: #e8ebf3 !important;
+    font-size: 66px !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+}
+
+.zephyras-about-page .zap-intro-text {
+    max-width: 800px !important;
+}
+
+.zephyras-about-page .zap-label {
+    display: block !important;
+    color: #173b8f !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    margin-bottom: 9px !important;
+}
+
+.zephyras-about-page .zap-intro-text h2 {
+    font-size: 27px !important;
+    line-height: 1.7 !important;
+    font-weight: 800 !important;
+    color: #111 !important;
+    margin-bottom: 16px !important;
+}
+
+.zephyras-about-page .zap-intro-text p {
+    font-size: 14px !important;
+    line-height: 2.15 !important;
+    color: #707070 !important;
+    margin-bottom: 8px !important;
+}
+
+
+/* ========================================
+   SECTION TITLE
+======================================== */
+
+.zephyras-about-page .zap-section-title {
+    text-align: center !important;
+    margin-bottom: 32px !important;
+}
+
+.zephyras-about-page .zap-section-title > span {
+    display: block !important;
+    color: #173b8f !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    margin-bottom: 8px !important;
+}
+
+.zephyras-about-page .zap-section-title h2 {
+    font-size: 28px !important;
+    line-height: 1.6 !important;
+    font-weight: 800 !important;
+    color: #071a52 !important;
+    margin-bottom: 5px !important;
+}
+
+.zephyras-about-page .zap-section-title p {
+    font-size: 14px !important;
+    line-height: 2 !important;
+    color: #777 !important;
+    margin: 0 !important;
+}
+
+
+/* ========================================
+   WHY
+======================================== */
+
+.zephyras-about-page .zap-why {
+    width: 100% !important;
+    background: #f8f7f4 !important;
+    border-radius: 20px !important;
+    padding: 48px 35px !important;
+    margin-bottom: 60px !important;
+}
+
+.zephyras-about-page .zap-features {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    border-top: 1px solid #e3e1dc !important;
+    border-bottom: 1px solid #e3e1dc !important;
+}
+
+.zephyras-about-page .zap-feature {
+    min-width: 0 !important;
+    padding: 25px 28px !important;
+    border-left: 1px solid #dedbd5 !important;
+}
+
+.zephyras-about-page .zap-feature:last-child {
+    border-left: none !important;
+}
+
+.zephyras-about-page .zap-feature strong {
+    display: block !important;
+    color: #173b8f !important;
+    font-size: 24px !important;
+    line-height: 1 !important;
+    margin-bottom: 13px !important;
+}
+
+.zephyras-about-page .zap-feature h3 {
+    font-size: 17px !important;
+    font-weight: 800 !important;
+    color: #111 !important;
+    margin-bottom: 8px !important;
+}
+
+.zephyras-about-page .zap-feature p {
+    font-size: 13px !important;
+    line-height: 2 !important;
+    color: #777 !important;
+    margin: 0 !important;
+}
+
+
+/* ========================================
+   PRODUCTS
+======================================== */
+
+.zephyras-about-page .zap-products {
+    padding: 0 25px 60px !important;
+}
+
+.zephyras-about-page .zap-product-list {
+    width: 100% !important;
+    border-top: 1px solid #e9e9e9 !important;
+}
+
+.zephyras-about-page .zap-product {
+    display: grid !important;
+    grid-template-columns: 55px minmax(0, 1fr) !important;
+    align-items: center !important;
+    column-gap: 20px !important;
+    min-height: 72px !important;
+    padding: 17px 10px !important;
+    border-bottom: 1px solid #e9e9e9 !important;
+}
+
+.zephyras-about-page .zap-product-number {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #173b8f !important;
+}
+
+.zephyras-about-page .zap-product h3 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #111 !important;
+    margin-bottom: 3px !important;
+}
+
+.zephyras-about-page .zap-product p {
+    font-size: 12px !important;
+    color: #888 !important;
+    line-height: 1.8 !important;
+    margin: 0 !important;
+}
+
+
+/* ========================================
+   VISION
+======================================== */
+
+.zephyras-about-page .zap-vision {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    background: #071a52 !important;
+    border-radius: 20px !important;
+    padding: 50px 60px !important;
+    margin-bottom: 55px !important;
+}
+
+.zephyras-about-page .zap-vision > span {
+    display: block !important;
+    color: #aebde2 !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}
+
+.zephyras-about-page .zap-vision h2 {
+    position: relative !important;
+    z-index: 2 !important;
+    color: #fff !important;
+    font-size: 27px !important;
+    font-weight: 800 !important;
+    line-height: 1.7 !important;
+    margin-bottom: 14px !important;
+}
+
+.zephyras-about-page .zap-vision p {
+    position: relative !important;
+    z-index: 2 !important;
+    max-width: 780px !important;
+    color: rgba(255,255,255,.72) !important;
+    font-size: 14px !important;
+    line-height: 2.15 !important;
+    margin-bottom: 7px !important;
+}
+
+.zephyras-about-page .zap-vision::after {
+    content: "ز" !important;
+    position: absolute !important;
+    left: 20px !important;
+    bottom: -85px !important;
+    color: rgba(255,255,255,.035) !important;
+    font-size: 250px !important;
+    line-height: 1 !important;
+    font-weight: 900 !important;
+}
+
+
+/* ========================================
+   FINAL
+======================================== */
+
+.zephyras-about-page .zap-final {
+    text-align: center !important;
+    padding: 0 20px 65px !important;
+}
+
+.zephyras-about-page .zap-final > span {
+    display: block !important;
+    color: #173b8f !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    margin-bottom: 8px !important;
+}
+
+.zephyras-about-page .zap-final h2 {
+    color: #071a52 !important;
+    font-size: 27px !important;
+    font-weight: 800 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 10px !important;
+}
+
+.zephyras-about-page .zap-final p {
+    max-width: 650px !important;
+    margin: 0 auto 10px !important;
+    color: #777 !important;
+    font-size: 14px !important;
+    line-height: 2.1 !important;
+}
+
+.zephyras-about-page .zap-final strong {
+    color: #173b8f !important;
+    font-size: 15px !important;
+}
+
+
+/* ========================================
+   MOBILE - ABOUT
+======================================== */
+
+@media (max-width: 768px) {
+
+    .zephyras-about-page {
+        padding: 0 14px !important;
+    }
+
+    .zephyras-about-page .zap-header {
+        padding: 38px 10px 42px !important;
+    }
+
+    .zephyras-about-page .zap-header h1 {
+        font-size: 28px !important;
+    }
+
+    .zephyras-about-page .zap-intro {
+        grid-template-columns: 1fr !important;
+        padding: 48px 10px !important;
+        row-gap: 12px !important;
+    }
+
+    .zephyras-about-page .zap-intro-number {
+        font-size: 46px !important;
+    }
+
+    .zephyras-about-page .zap-intro-text h2,
+    .zephyras-about-page .zap-section-title h2,
+    .zephyras-about-page .zap-vision h2,
+    .zephyras-about-page .zap-final h2 {
+        font-size: 24px !important;
+    }
+
+    .zephyras-about-page .zap-why {
+        padding: 40px 20px !important;
+    }
+
+    .zephyras-about-page .zap-features {
+        grid-template-columns: 1fr !important;
+    }
+
+    .zephyras-about-page .zap-feature {
+        border-left: none !important;
+        border-bottom: 1px solid #dedbd5 !important;
+    }
+
+    .zephyras-about-page .zap-feature:last-child {
+        border-bottom: none !important;
+    }
+
+    .zephyras-about-page .zap-products {
+        padding: 0 10px 50px !important;
+    }
+
+    .zephyras-about-page .zap-vision {
+        padding: 40px 25px !important;
+    }
+
+}
+
+/* =========================================================
+   ZEPHYRAS CONTACT PAGE
+========================================================= */
+
+.zephyras-contact-page {
+    --zcp-navy: #060C3B;
+    --zcp-navy-light: #10184f;
+    --zcp-orange: #F6F2EB;
+    --zcp-text: #1f2937;
+    --zcp-muted: #6b7280;
+    --zcp-border: #e5e7eb;
+    --zcp-white: #ffffff;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: var(--zcp-text);
+    background: #ffffff;
+    direction: rtl;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.zephyras-contact-page *,
+.zephyras-contact-page *::before,
+.zephyras-contact-page *::after {
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   HERO
+======================================== */
+
+.zephyras-contact-page .zcp-hero {
+    position: relative;
+    width: 100%;
+    padding: 90px 24px 100px;
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(255, 255, 255, 0.08),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #060C3B 0%,
+            #0b1450 100%
+        );
+    overflow: hidden;
+    border-radius: .75rem;
+}
+
+.zephyras-contact-page .zcp-hero::before {
+    content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    top: -220px;
+    left: -160px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.zephyras-contact-page .zcp-hero::after {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    right: -120px;
+    bottom: -160px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.zephyras-contact-page .zcp-hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.zephyras-contact-page .zcp-hero-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.zephyras-contact-page .zcp-hero-label span {
+    display: block;
+    width: 28px;
+    height: 2px;
+    flex: 0 0 28px;
+    background: #ffffff;
+}
+
+.zephyras-contact-page .zcp-hero h1,
+.zephyras-contact-page .zcp-hero-content h1 {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    color: #ffffff !important;
+    background: transparent !important;
+    border: 0 !important;
+    font-family: inherit !important;
+    font-size: clamp(40px, 5vw, 62px) !important;
+    line-height: 1.25 !important;
+    font-weight: 800 !important;
+    text-align: right !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+}
+
+.zephyras-contact-page .zcp-hero p {
+    max-width: 650px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/* ========================================
+   CONTACT METHODS
+======================================== */
+
+.zephyras-contact-page .zcp-contact-area {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 24px 40px;
+}
+
+.zephyras-contact-page .zcp-section-title {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.zephyras-contact-page .zcp-section-title > span {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--zcp-navy);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    direction: ltr;
+}
+
+.zephyras-contact-page .zcp-section-title h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: var(--zcp-navy);
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+.zephyras-contact-page .zcp-section-title p {
+    margin: 0;
+    color: var(--zcp-muted);
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.zephyras-contact-page .zcp-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.zephyras-contact-page .zcp-contact-card {
+    position: relative;
+    min-height: 260px;
+    padding: 30px 25px;
+    background: #ffffff;
+    border: 1px solid var(--zcp-border);
+    border-radius: 14px;
+    text-align: right;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.zephyras-contact-page .zcp-contact-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(6, 12, 59, 0.18);
+    box-shadow: 0 15px 35px rgba(6, 12, 59, 0.08);
+}
+
+.zephyras-contact-page .zcp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 25px;
+    background: var(--zcp-orange);
+    border-radius: 12px;
+    color: var(--zcp-navy);
+    font-size: 22px;
+}
+
+.zephyras-contact-page .zcp-contact-card h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: var(--zcp-navy);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.zephyras-contact-page .zcp-contact-card p {
+    min-height: 50px;
+    margin: 0 0 14px;
+    color: var(--zcp-muted);
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.zephyras-contact-page .zcp-contact-card a {
+    color: var(--zcp-navy);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    direction: ltr;
+    unicode-bidi: embed;
+    transition: opacity 0.2s ease;
+}
+
+.zephyras-contact-page .zcp-contact-card a:hover {
+    opacity: 0.65;
+}
+
+.zephyras-contact-page .zcp-contact-card strong {
+    display: block;
+    color: var(--zcp-navy);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+
+/* ========================================
+   STORE INFORMATION
+======================================== */
+
+.zephyras-contact-page .zcp-main-section {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 50px 24px 90px !important;
+    box-sizing: border-box !important;
+}
+
+.zephyras-contact-page .zcp-info-box {
+    display: grid !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    grid-template-columns: 0.9fr 1.1fr !important;
+
+    min-height: 480px !important;
+
+    margin: 0 0 40px !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    background: var(--zcp-navy) !important;
+    border-radius: 18px !important;
+
+    box-sizing: border-box !important;
+}
+
+.zephyras-contact-page .zcp-info-box > * {
+    min-width: 0 !important;
+}
+
+.zephyras-contact-page .zcp-info-content {
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 55px !important;
+    text-align: right;
+}
+
+.zephyras-contact-page .zcp-info-label {
+    display: block;
+    margin-bottom: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    direction: ltr;
+}
+
+.zephyras-contact-page .zcp-info-content h2 {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 1.4;
+    font-weight: 800;
+}
+
+.zephyras-contact-page .zcp-info-description {
+    max-width: 480px;
+    margin: 0 0 35px;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 14px;
+    line-height: 2;
+}
+
+.zephyras-contact-page .zcp-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.zephyras-contact-page .zcp-info-item:last-child {
+    margin-bottom: 0;
+}
+
+.zephyras-contact-page .zcp-info-item-icon {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.zephyras-contact-page .zcp-info-item h4 {
+    margin: 0 0 5px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.zephyras-contact-page .zcp-info-item p,
+.zephyras-contact-page .zcp-info-item a {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+.zephyras-contact-page .zcp-info-item a:hover {
+    color: #ffffff;
+}
+
+
+/* ========================================
+   MAP
+======================================== */
+
+.zephyras-contact-page .zcp-map-box {
+    position: relative !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 480px !important;
+    min-height: 480px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    background: #f3f1ec !important;
+
+    box-sizing: border-box !important;
+}
+
+.zephyras-contact-page .zcp-map-box iframe {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+    outline: 0 !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* ========================================
+   MAP OVERLAY
+======================================== */
+
+.zephyras-contact-page .zcp-map-pattern {
+    position: absolute;
+    inset: 0;
+    opacity: 0.55;
+    background-image:
+        linear-gradient(
+            30deg,
+            transparent 48%,
+            rgba(6, 12, 59, 0.07) 49%,
+            rgba(6, 12, 59, 0.07) 51%,
+            transparent 52%
+        ),
+        linear-gradient(
+            -30deg,
+            transparent 48%,
+            rgba(6, 12, 59, 0.06) 49%,
+            rgba(6, 12, 59, 0.06) 51%,
+            transparent 52%
+        );
+    background-size: 90px 90px;
+    pointer-events: none;
+}
+
+.zephyras-contact-page .zcp-map-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    width: min(80%, 340px);
+    padding: 35px 30px;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(6, 12, 59, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(6, 12, 59, 0.12);
+    text-align: center;
+}
+
+.zephyras-contact-page .zcp-map-pin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin: 0 auto 18px;
+    background: var(--zcp-navy);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.zephyras-contact-page .zcp-map-content h3 {
+    margin: 0 0 6px;
+    padding: 0;
+    color: var(--zcp-navy);
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.zephyras-contact-page .zcp-map-content p {
+    margin: 0;
+    color: var(--zcp-muted);
+    font-size: 13px;
+}
+
+
+/* ========================================
+   CTA
+======================================== */
+
+.zephyras-contact-page .zcp-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    width: calc(100% - 48px) !important;
+    max-width: 1152px !important;
+
+    margin: 0 auto 80px !important;
+    padding: 42px 48px;
+
+    background: var(--zcp-orange);
+    border-radius: 16px;
+}
+
+.zephyras-contact-page .zcp-cta-content {
+    min-width: 0;
+}
+
+.zephyras-contact-page .zcp-cta-content span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--zcp-navy);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    direction: ltr;
+}
+
+.zephyras-contact-page .zcp-cta-content h2 {
+    margin: 0 0 8px;
+    padding: 0;
+    color: var(--zcp-navy);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.zephyras-contact-page .zcp-cta-content p {
+    max-width: 600px;
+    margin: 0;
+    color: #5f6475;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.zephyras-contact-page .zcp-cta-button {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    min-width: 155px;
+    padding: 15px 22px;
+    background: var(--zcp-navy);
+    border-radius: 9px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.zephyras-contact-page .zcp-cta-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.zephyras-contact-page .zcp-cta-button span {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+
+/* ========================================
+   TABLET - 1024
+======================================== */
+
+@media (max-width: 1024px) {
+
+    .zephyras-contact-page .zcp-contact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .zephyras-contact-page .zcp-info-box {
+        grid-template-columns: 1fr !important;
+    }
+
+    .zephyras-contact-page .zcp-map-box {
+        height: 380px !important;
+        min-height: 380px !important;
+    }
+
+    .zephyras-contact-page .zcp-cta {
+        width: calc(100% - 48px) !important;
+        margin-right: 24px !important;
+        margin-left: 24px !important;
+    }
+}
+
+
+/* ========================================
+   MOBILE - 768
+======================================== */
+
+@media (max-width: 768px) {
+
+    /* HERO */
+    .zephyras-contact-page .zcp-hero {
+        padding: 55px 20px 60px;
+        border-radius: 12px;
+    }
+
+    .zephyras-contact-page .zcp-hero::before {
+        width: 300px;
+        height: 300px;
+        top: -170px;
+        left: -130px;
+    }
+
+    .zephyras-contact-page .zcp-hero::after {
+        width: 190px;
+        height: 190px;
+        right: -90px;
+        bottom: -110px;
+    }
+
+    .zephyras-contact-page .zcp-hero-label {
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+
+    .zephyras-contact-page .zcp-hero h1,
+    .zephyras-contact-page .zcp-hero-content h1 {
+        font-size: 36px !important;
+        line-height: 1.45 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .zephyras-contact-page .zcp-hero p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+
+    /* CONTACT */
+    .zephyras-contact-page .zcp-contact-area {
+        padding: 55px 20px 25px;
+    }
+
+    .zephyras-contact-page .zcp-section-title {
+        margin-bottom: 28px;
+    }
+
+    .zephyras-contact-page .zcp-section-title > span {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
+    .zephyras-contact-page .zcp-section-title h2 {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .zephyras-contact-page .zcp-section-title p {
+        font-size: 13px;
+        line-height: 1.9;
+    }
+
+    .zephyras-contact-page .zcp-contact-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card {
+        min-height: auto;
+        padding: 24px 22px;
+        border-radius: 13px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card:hover {
+        transform: none;
+    }
+
+    .zephyras-contact-page .zcp-icon {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 18px;
+        font-size: 20px;
+        border-radius: 11px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card h3 {
+        font-size: 17px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card p {
+        min-height: auto;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card a {
+        font-size: 14px;
+    }
+
+
+    /* STORE */
+    .zephyras-contact-page .zcp-main-section {
+        width: 100% !important;
+        padding: 30px 20px 60px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-box {
+        width: 100% !important;
+        max-width: 100% !important;
+        grid-template-columns: 1fr !important;
+        min-height: auto !important;
+        margin-bottom: 30px !important;
+        border-radius: 15px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-content {
+        width: 100% !important;
+        padding: 34px 24px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-content h2 {
+        font-size: 27px;
+        line-height: 1.5;
+    }
+
+    .zephyras-contact-page .zcp-info-description {
+        max-width: 100%;
+        margin-bottom: 28px;
+        font-size: 13px;
+        line-height: 2;
+    }
+
+    .zephyras-contact-page .zcp-info-item {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .zephyras-contact-page .zcp-info-item-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .zephyras-contact-page .zcp-info-item h4 {
+        font-size: 13px;
+    }
+
+    .zephyras-contact-page .zcp-info-item p,
+    .zephyras-contact-page .zcp-info-item a {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+
+    /* MAP */
+    .zephyras-contact-page .zcp-map-box {
+        width: 100% !important;
+        height: 320px !important;
+        min-height: 320px !important;
+    }
+
+    .zephyras-contact-page .zcp-map-content {
+        width: min(82%, 320px);
+        padding: 25px 20px;
+        border-radius: 14px;
+    }
+
+    .zephyras-contact-page .zcp-map-pin {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 14px;
+        font-size: 20px;
+    }
+
+    .zephyras-contact-page .zcp-map-content h3 {
+        font-size: 17px;
+    }
+
+    .zephyras-contact-page .zcp-map-content p {
+        font-size: 12px;
+    }
+
+
+    /* CTA */
+    .zephyras-contact-page .zcp-cta {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 22px;
+
+        width: calc(100% - 40px) !important;
+        max-width: none !important;
+
+        margin: 0 20px 50px !important;
+        padding: 30px 24px;
+        border-radius: 14px;
+    }
+
+    .zephyras-contact-page .zcp-cta-content h2 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .zephyras-contact-page .zcp-cta-content p {
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 1.9;
+    }
+
+    .zephyras-contact-page .zcp-cta-button {
+        width: 100%;
+        min-width: 0;
+        padding: 14px 20px;
+    }
+}
+
+
+/* ========================================
+   SMALL MOBILE - 520
+======================================== */
+
+@media (max-width: 520px) {
+
+    .zephyras-contact-page .zcp-hero {
+        padding: 48px 17px 52px;
+        border-radius: 10px;
+    }
+
+    .zephyras-contact-page .zcp-hero-label {
+        font-size: 11px;
+        gap: 8px;
+    }
+
+    .zephyras-contact-page .zcp-hero-label span {
+        width: 22px;
+        flex-basis: 22px;
+    }
+
+    .zephyras-contact-page .zcp-hero h1,
+    .zephyras-contact-page .zcp-hero-content h1 {
+        font-size: 30px !important;
+        line-height: 1.5 !important;
+    }
+
+    .zephyras-contact-page .zcp-hero p {
+        font-size: 13px;
+        line-height: 2;
+    }
+
+
+    .zephyras-contact-page .zcp-contact-area {
+        padding: 48px 17px 20px;
+    }
+
+    .zephyras-contact-page .zcp-section-title {
+        margin-bottom: 25px;
+    }
+
+    .zephyras-contact-page .zcp-section-title h2 {
+        font-size: 23px;
+    }
+
+    .zephyras-contact-page .zcp-section-title p {
+        font-size: 12px;
+    }
+
+    .zephyras-contact-page .zcp-contact-grid {
+        gap: 12px;
+    }
+
+    .zephyras-contact-page .zcp-contact-card {
+        padding: 22px 19px;
+        border-radius: 12px;
+    }
+
+    .zephyras-contact-page .zcp-icon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 16px;
+        font-size: 19px;
+    }
+
+
+    /* STORE */
+    .zephyras-contact-page .zcp-main-section {
+        padding: 25px 17px 50px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-box {
+        width: 100% !important;
+        margin: 0 0 25px !important;
+        border-radius: 13px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-content {
+        padding: 28px 19px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-content h2 {
+        font-size: 24px;
+    }
+
+    .zephyras-contact-page .zcp-info-description {
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+
+    .zephyras-contact-page .zcp-info-item {
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .zephyras-contact-page .zcp-info-item-icon {
+        width: 37px;
+        height: 37px;
+        font-size: 15px;
+        border-radius: 9px;
+    }
+
+    .zephyras-contact-page .zcp-info-item h4 {
+        font-size: 12px;
+    }
+
+    .zephyras-contact-page .zcp-info-item p,
+    .zephyras-contact-page .zcp-info-item a {
+        font-size: 11px;
+    }
+
+
+    /* MAP */
+    .zephyras-contact-page .zcp-map-box {
+        height: 285px !important;
+        min-height: 285px !important;
+    }
+
+    .zephyras-contact-page .zcp-map-content {
+        width: 84%;
+        padding: 22px 16px;
+    }
+
+    .zephyras-contact-page .zcp-map-pin {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    .zephyras-contact-page .zcp-map-content h3 {
+        font-size: 16px;
+    }
+
+    .zephyras-contact-page .zcp-map-content p {
+        font-size: 11px;
+    }
+
+
+    /* CTA */
+    .zephyras-contact-page .zcp-cta {
+        width: calc(100% - 34px) !important;
+        margin-right: 17px !important;
+        margin-left: 17px !important;
+        margin-bottom: 40px !important;
+        padding: 26px 19px;
+        border-radius: 12px;
+        gap: 18px;
+    }
+
+    .zephyras-contact-page .zcp-cta-content span {
+        font-size: 10px;
+    }
+
+    .zephyras-contact-page .zcp-cta-content h2 {
+        font-size: 21px;
+    }
+
+    .zephyras-contact-page .zcp-cta-content p {
+        font-size: 11px;
+    }
+
+    .zephyras-contact-page .zcp-cta-button {
+        padding: 13px 18px;
+        font-size: 13px;
+    }
+}
+
+
+/* ========================================
+   EXTRA SMALL - 380
+======================================== */
+
+@media (max-width: 380px) {
+
+    .zephyras-contact-page .zcp-hero h1,
+    .zephyras-contact-page .zcp-hero-content h1 {
+        font-size: 27px !important;
+    }
+
+    .zephyras-contact-page .zcp-section-title h2 {
+        font-size: 21px;
+    }
+
+    .zephyras-contact-page .zcp-info-content {
+        padding: 25px 16px !important;
+    }
+
+    .zephyras-contact-page .zcp-info-content h2 {
+        font-size: 22px;
+    }
+
+    .zephyras-contact-page .zcp-map-box {
+        height: 260px !important;
+        min-height: 260px !important;
+    }
+
+    .zephyras-contact-page .zcp-map-content {
+        width: 88%;
+        padding: 19px 14px;
+    }
+
+    .zephyras-contact-page .zcp-cta {
+        padding: 23px 16px;
+    }
+
+    .zephyras-contact-page .zcp-cta-content h2 {
+        font-size: 19px;
+    }
+}
+.zephyras-enamad {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.zephyras-enamad img {
+    display: block;
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}

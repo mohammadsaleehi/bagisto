@@ -1,0 +1,26 @@
+{
+    "name": "payment/torobpay",
+    "description": "TorobPay payment gateway integration for Bagisto.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Salehi",
+            "email": "Salehi00426@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\TorobPay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\TorobPay\\Providers\\TorobPayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

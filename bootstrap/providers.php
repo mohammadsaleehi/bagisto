@@ -43,6 +43,8 @@ use Webkul\Stripe\Providers\StripeServiceProvider;
 use Webkul\Tax\Providers\TaxServiceProvider;
 use Webkul\Theme\Providers\ThemeServiceProvider;
 use Webkul\User\Providers\UserServiceProvider;
+use Webkul\Zarinpal\Providers\ZarinpalServiceProvider;
+use Webkul\TorobPay\Providers\TorobPayServiceProvider;
 
 return [
     /**
@@ -95,4 +97,6 @@ return [
     TaxServiceProvider::class,
     ThemeServiceProvider::class,
     UserServiceProvider::class,
+    ZarinpalServiceProvider::class,
+    TorobPayServiceProvider::class,
 ];

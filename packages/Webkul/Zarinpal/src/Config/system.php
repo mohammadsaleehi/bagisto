@@ -1,0 +1,108 @@
+<?php
+
+return [
+    [
+        'key'  => 'sales.payment_methods.zarinpal',
+        'name' => 'ZarinPal',
+        'info' => 'ZarinPal Payment Method Configuration',
+        'sort' => 1,
+
+        'fields' => [
+            [
+                'name'          => 'active',
+                'title'         => 'Active',
+                'type'          => 'boolean',
+                'validation'    => 'required',
+                'channel_based' => true,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'title',
+                'title'         => 'Title',
+                'type'          => 'text',
+                'validation'    => 'required',
+                'channel_based' => true,
+                'locale_based'  => true,
+            ],
+            [
+                'name'          => 'description',
+                'title'         => 'Description',
+                'type'          => 'textarea',
+                'channel_based' => true,
+                'locale_based'  => true,
+            ],
+            [
+                'name'          => 'merchant_id',
+                'title'         => 'Merchant ID',
+                'type'          => 'text',
+                'validation'    => 'required',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'sandbox',
+                'title'         => 'Sandbox',
+                'type'          => 'boolean',
+                'channel_based' => true,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'image',
+                'title'         => 'Logo',
+                'type'          => 'image',
+                'validation'    => 'mimes:bmp,jpeg,jpg,png,webp',
+                'channel_based' => true,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'sort',
+                'title'         => 'Sort Order',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'api_base_url',
+                'title'         => 'API Base URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'sandbox_base_url',
+                'title'         => 'Sandbox Base URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'request_url',
+                'title'         => 'Request URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'verify_url',
+                'title'         => 'Verify URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'redirect_url',
+                'title'         => 'Redirect URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+            [
+                'name'          => 'callback_url',
+                'title'         => 'Callback URL',
+                'type'          => 'text',
+                'channel_based' => false,
+                'locale_based'  => false,
+            ],
+        ],
+    ],
+];

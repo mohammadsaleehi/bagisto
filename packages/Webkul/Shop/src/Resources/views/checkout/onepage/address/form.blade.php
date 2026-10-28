@@ -350,9 +350,22 @@
                 getCountries() {
                     this.$axios.get("{{ route('shop.api.core.countries') }}")
                         .then(response => {
-                            this.countries = response.data.data;
+                            this.countries = response.data.data.filter(
+                                country => country.code === 'IR'
+                            );
+
+                            this.selectedCountry = 'IR';
                         })
-                        .catch(() => {});
+                        .catch(() => {
+                            this.countries = [
+                                {
+                                    code: 'IR',
+                                    name: 'Iran',
+                                },
+                            ];
+
+                            this.selectedCountry = 'IR';
+                        });
                 },
 
                 getStates() {

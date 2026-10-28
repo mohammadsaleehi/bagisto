@@ -177,7 +177,7 @@ class CartController extends APIController
     public function estimateShippingMethods(): JsonResource
     {
         $this->validate(request(), [
-            'country' => 'required',
+            'country' => 'required|in:IR',
             'state' => 'required',
             'postcode' => 'required',
             'shipping_method' => 'sometimes|required',

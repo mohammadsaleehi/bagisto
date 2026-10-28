@@ -95,4 +95,6 @@ return [
     TaxServiceProvider::class,
     ThemeServiceProvider::class,
     UserServiceProvider::class,
+    Webkul\Torob\Providers\TorobServiceProvider::class,
+    Webkul\TipaxShipping\Providers\TipaxShippingServiceProvider::class,
 ];

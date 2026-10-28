@@ -1,0 +1,22 @@
+{
+    "name": "webkul/torob",
+    "description": "Torob Product API v3 integration for Bagisto",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "firebase/php-jwt": "^7.1",
+        "paragonie/sodium_compat": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Torob\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Torob\\Providers\\TorobServiceProvider"
+            ]
+        }
+    }
+}

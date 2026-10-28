@@ -11,6 +11,30 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Webkul\Core\Http\Middleware\SecureHeaders;
 use Webkul\Installer\Http\Middleware\CanInstall;
 
+spl_autoload_register(function ($class) {
+    $prefixes = [
+        'Webkul\\Torob\\' => __DIR__ . '/../packages/Webkul/Torob/src/',
+        'Webkul\\TipaxShipping\\' => __DIR__ . '/../packages/Webkul/TipaxShipping/src/',
+    ];
+
+    foreach ($prefixes as $prefix => $baseDir) {
+        if (strncmp($class, $prefix, strlen($prefix)) !== 0) {
+            continue;
+        }
+
+        $relativeClass = substr($class, strlen($prefix));
+
+        $file = $baseDir
+            . str_replace('\\', '/', $relativeClass)
+            . '.php';
+
+        if (file_exists($file)) {
+            require_once $file;
+        }
+
+        return;
+    }
+});
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
